@@ -221,7 +221,7 @@ tract.
 ## Project files
 
 
-
+```text
 project/
 ├── README.md
 ├── 01_mdc_stl_att_svi_analysis_FINAL.R
@@ -244,7 +244,7 @@ project/
 │       ├── sequential_svi_models.csv
 │       └── tract_clustered_sensitivity_model.csv
 &#x20;   └── README.md
-
+```
 ## Software requirements
 
 The analysis was conducted in R using:
