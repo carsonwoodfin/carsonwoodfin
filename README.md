@@ -190,7 +190,7 @@ ATT receipt declined across neighborhood SVI categories
 
 
 
-Higher-SVI groups also had greater than average non-neurologic comorbidity
+Higher-SVI groups also had greater-than-average non-neurologic comorbidity
 and selected medication class-burden.
 
 
@@ -223,49 +223,26 @@ tract.
 
 
 project/
-
 ├── README.md
-
-├── 01\_mdc\_stl\_att\_svi\_analysis\_FINAL.R
-
-├── clinical\_complexity\_paper\_FINAL.docx
-
-├── Clinical\_Complexity\_SVI\_ATT\_FINAL.pptx
-
-├── Aggregate\_Results/
-
+├── 01_mdc_stl_att_svi_analysis_FINAL.R
+├── clinical_complexity_paper_FINAL.docx
+├── Clinical_Complexity_SVI_ATT_FINAL.pptx
+├── Aggregate_Results/
 │   ├── Figures/
-
-│   │   ├── att\_receipt\_by\_svi.png
-
-│   │   ├── att\_receipt\_by\_svi\_and\_comorbidity.png
-
-│   │   ├── att\_receipt\_by\_svi\_and\_medication.png
-
-│   │   └── primary\_adjusted\_forest\_plot.png
-
+│   │   ├── att_receipt_by_svi.png
+│   │   ├── att_receipt_by_svi_and_comorbidity.png
+│   │   ├── att_receipt_by_svi_and_medication.png
+│   │   └── primary_adjusted_forest_plot.png
 │   └── Tables/
-
-│       ├── att\_receipt\_by\_svi.csv
-
-│       ├── att\_receipt\_by\_svi\_and\_comorbidity.csv
-
-│       ├── att\_receipt\_by\_svi\_and\_medication.csv
-
-│       ├── cns\_sensitivity\_model.csv
-
-│       ├── conventional\_logistic\_model.csv
-
-│       ├── multicollinearity\_diagnostics.csv
-
-│       ├── primary\_model\_presentation\_table.csv
-
-│       ├── sequential\_svi\_models.csv
-
-│       └── tract\_clustered\_sensitivity\_model.csv
-
-└── Documentation/
-
+│       ├── att_receipt_by_svi.csv
+│       ├── att_receipt_by_svi_and_comorbidity.csv
+│       ├── att_receipt_by_svi_and_medication.csv
+│       ├── cns_sensitivity_model.csv
+│       ├── conventional_logistic_model.csv
+│       ├── multicollinearity_diagnostics.csv
+│       ├── primary_model_presentation_table.csv
+│       ├── sequential_svi_models.csv
+│       └── tract_clustered_sensitivity_model.csv
 &#x20;   └── README.md
 
 ## Software requirements
