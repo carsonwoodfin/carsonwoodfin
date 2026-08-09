@@ -324,7 +324,7 @@ footer p {
   display: grid;
   grid-template-columns: 190px 1fr;
   gap: 36px;
-  align-items: center;
+  align-items: start;
 }
 
 .about-photo img {
@@ -337,10 +337,6 @@ footer p {
 @media (max-width: 700px) {
   .about-layout {
     grid-template-columns: 1fr;
-  }
-
-  .about-photo {
-    text-align: center;
   }
 
   .about-photo img {
