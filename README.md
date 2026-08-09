@@ -48,7 +48,7 @@ and align the analysis with the regional neighborhood-vulnerability question.
 
 
 
-##Restricted data
+## Restricted data
 
 The source patient-level dataset is restricted and is not included in this
 repository or submission. It contains direct identifiers and may only be accessed
@@ -66,32 +66,32 @@ patient-level geographic information, or patient-level analytic records
 
 
 
-##Primary outcome
+## Primary outcome
 
 att_indicator identifies whether a patient received anti-amyloid therapy
 during the study period.
 
-##Neighborhood exposure
+## Neighborhood exposure
 
 SVI_quart represents census tract Social Vulnerability Index categories:
--Q1: Most advantaged
--Q2
--Q3
--Q4: Highest social vulnerability
+* Q1: Most advantaged
+* Q2
+* Q3
+* Q4: Highest social vulnerability
 
 
 
-##Non-neurologic comorbidity burden
+## Non-neurologic comorbidity burden
 
 The primary comorbidity measure is an eight-domain count containing:
--Hypertension
--Hyperlipidemia
--Diabetes
--Cerebrovascular disease
--Myocardial infarction
--Chronic kidney disease
--Liver cirrhosis
--Polyneuropathy
+* Hypertension
+* Hyperlipidemia
+* Diabetes
+* Cerebrovascular disease
+* Myocardial infarction
+* Chronic kidney disease
+* Liver cirrhosis
+* Polyneuropathy
 
 
 
@@ -118,23 +118,23 @@ Comorbidity categories were defined as:
 
 Medication burden was calculated from nine selected medication classes:
 
--Anticoagulants
--Antihypertensives
--Antiplatelets
--GLP-1 receptor agonists
--Acetylcholinesterase inhibitors
--Antidepressants
--Biguanides
--Memantine
--Statins
+* Anticoagulants
+* Antihypertensives
+* Antiplatelets
+* GLP-1 receptor agonists
+* Acetylcholinesterase inhibitors
+* Antidepressants
+* Biguanides
+* Memantine
+* Statins
 
 
 
 Medication categories were defined as:
 
--None: 0 selected classes
--Moderate: 1-3 selected classes
--High: 4 or more selected classes
+* None: 0 selected classes
+* Moderate: 1-3 selected classes
+* High: 4 or more selected classes
 
 
 
@@ -149,26 +149,26 @@ interpreted as total medication count or conventional polypharmacy
 
 The analysis includes:
 
--Aggregate descriptive statistics
--Exact binomial 95% confidence intervals
--Conventional logistic regression
--Bias-reduced logistic regression
--Census-tract clustered standard errors
--Sequential regression models
--CNS sensitivity analysis
--Multicollinearity diagnostics
+* Aggregate descriptive statistics
+* Exact binomial 95% confidence intervals
+* Conventional logistic regression
+* Bias-reduced logistic regression
+* Census-tract clustered standard errors
+* Sequential regression models
+* CNS sensitivity analysis
+* Multicollinearity diagnostics
 
 
 
 The primary adjusted model includes:
 
--SVI category
--Non-neurologic comorbidity burden
--Selected medication-class burden
--Age per five years
--Gender
--Race
--Distance from Barnes-Jewish Hospital per 10 miles
+* SVI category
+* Non-neurologic comorbidity burden
+* Selected medication-class burden
+* Age per five years
+* Gender
+* Race
+* Distance from Barnes-Jewish Hospital per 10 miles
 
 
 
