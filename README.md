@@ -313,7 +313,7 @@ and regulatory requirements.
 
 
 
-##Important limitations
+## Important limitations
 
 * The analysis is observational and cannot establish causality.
 * Neighborhood SVI is a census-tract measure and should not be interpreted as an
@@ -331,7 +331,7 @@ separately.
 
 
 
-##AI use disclosure
+## AI use disclosure
 
 Generative AI was used as a support tool for code organization, debugging,
 visualization refinement, documentation, and interpretation checks. The research
