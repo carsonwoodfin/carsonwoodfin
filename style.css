@@ -323,8 +323,13 @@ footer p {
 .about-layout {
   display: grid;
   grid-template-columns: 190px 1fr;
-  gap: 36px;
+  gap: 28px;
   align-items: start;
+}
+
+.about-photo {
+  margin-left: 0;
+  margin-top: 0;
 }
 
 .about-photo img {
@@ -332,6 +337,7 @@ footer p {
   height: 190px;
   object-fit: cover;
   border-radius: 50%;
+}
 }
 
 @media (max-width: 700px) {
