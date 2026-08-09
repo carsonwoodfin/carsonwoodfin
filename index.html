@@ -1,1 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carson Woodfin | Data Analytics Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Carson Woodfin</h1>
+      <p>Clinical Research | Data Analytics | Alzheimer’s Disease & Health Equity</p>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#project">Project</a>
+        <a href="#findings">Key Findings</a>
+        <a href="#resume">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+
+        <p>
+          I am a clinical research professional with interests in Alzheimer’s disease,
+          health equity, implementation of emerging therapies, and the use of real-world
+          clinical data to better understand differences in healthcare delivery.
+        </p>
+
+        <p>
+          My work combines clinical research coordination with data analytics to examine
+          how patient, clinical, and neighborhood factors may influence access to and
+          receipt of specialized care.
+        </p>
+      </div>
+    </section>
+
+    <section id="project" class="section alt-section">
+      <div class="container">
+        <h2>Featured Project</h2>
+
+        <h3>
+          Clinical Complexity, Neighborhood Vulnerability, and Anti-Amyloid Therapy Receipt
+        </h3>
+
+        <p>
+          This exploratory secondary analysis examined whether neighborhood social
+          vulnerability and clinical complexity were associated with anti-amyloid therapy
+          receipt among patients seen at the Washington University Memory Diagnostic Center.
+        </p>
+
+        <p>
+          Using R, I evaluated treatment receipt across Social Vulnerability Index quartiles,
+          comorbidity burden, and selected medication burden. Descriptive analyses,
+          bias-reduced logistic regression, sequential modeling, and sensitivity analyses
+          were used to evaluate whether clinical burden helped explain previously observed
+          neighborhood differences in treatment receipt.
+        </p>
+
+        <p>
+          The findings showed that anti-amyloid therapy receipt declined as neighborhood
+          vulnerability increased. Higher comorbidity and selected medication burden were
+          also associated with lower treatment receipt, but these clinical factors did not
+          fully explain the neighborhood gradient.
+        </p>
+      </div>
+    </section>
+
+    <section id="findings" class="section">
+      <div class="container">
+        <h2>Key Findings</h2>
+
+        <div class="cards">
+
+          <div class="card">
+            <h3>Neighborhood Vulnerability</h3>
+            <p>
+              Anti-amyloid therapy receipt declined from 10.1% in the most advantaged
+              SVI quartile to 1.4% in the most vulnerable quartile.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Clinical Complexity</h3>
+            <p>
+              High comorbidity burden and high selected medication burden were both
+              associated with lower odds of treatment receipt.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Persistent Gradient</h3>
+            <p>
+              Adjustment for clinical burden reduced the neighborhood association only
+              modestly, suggesting that clinical complexity was part of the pattern but
+              did not fully account for it.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="visualizations" class="section alt-section">
+      <div class="container">
+        <h2>Selected Visualizations</h2>
+
+        <div class="gallery">
+
+          <figure>
+            <img src="images/att_receipt_by_svi.png"
+                 alt="Anti-amyloid therapy receipt across SVI quartiles">
+            <figcaption>
+              Anti-amyloid therapy receipt across neighborhood Social Vulnerability Index quartiles.
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/att_receipt_by_svi_and_comorbidity.png"
+                 alt="Anti-amyloid therapy receipt by SVI and comorbidity burden">
+            <figcaption>
+              Treatment receipt across SVI quartiles and comorbidity burden.
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/att_receipt_by_svi_and_medication.png"
+                 alt="Anti-amyloid therapy receipt by SVI and medication burden">
+            <figcaption>
+              Treatment receipt across SVI quartiles and selected medication burden.
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/primary_adjusted_forest_plot.png"
+                 alt="Adjusted odds ratios for anti-amyloid therapy receipt">
+            <figcaption>
+              Adjusted odds ratios from the primary mean bias-reduced logistic regression model.
+            </figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills Demonstrated</h2>
+
+        <ul class="skills-list">
+          <li>R</li>
+          <li>Data cleaning and variable construction</li>
+          <li>Descriptive analysis</li>
+          <li>Logistic regression</li>
+          <li>Bias-reduced regression</li>
+          <li>Sensitivity analysis</li>
+          <li>Data visualization</li>
+          <li>Clinical research</li>
+          <li>Health equity analysis</li>
+          <li>Research communication</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="resume" class="section alt-section">
+      <div class="container">
+        <h2>Resume</h2>
+
+        <p>
+          View my resume for additional information about my clinical research,
+          data analytics, and healthcare experience.
+        </p>
+
+        <a class="button" href="files/Carson_Woodfin_Resume.pdf" target="_blank">
+          View Resume
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Carson Woodfin</p>
+    </div>
+  </footer>
+
+</body>
+</html>
