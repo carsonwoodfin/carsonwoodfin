@@ -1,0 +1,315 @@
+/* =========================
+   Base / Reset
+========================= */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+
+/* =========================
+   Reusable Layout
+========================= */
+
+.container {
+  width: min(1100px, 90%);
+  margin: 0 auto;
+}
+
+.section {
+  padding: 70px 0;
+}
+
+.alt-section {
+  background-color: #f6f3ef;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+h2 {
+  font-size: 2.1rem;
+  color: #1f5b3a;
+  margin-bottom: 24px;
+}
+
+h3 {
+  color: #4a4a4a;
+  margin-bottom: 12px;
+}
+
+p {
+  margin-bottom: 18px;
+}
+
+
+/* =========================
+   Header / Hero
+========================= */
+
+header {
+  background: linear-gradient(
+    135deg,
+    #1f5b3a 0%,
+    #17452d 100%
+  );
+  color: #ffffff;
+  padding: 85px 0 55px;
+  text-align: center;
+  border-bottom: 8px solid #a91f36;
+}
+
+header h1 {
+  font-size: clamp(2.8rem, 6vw, 5rem);
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+}
+
+header p {
+  font-size: 1.15rem;
+  color: #f4efe8;
+  margin-bottom: 30px;
+}
+
+
+/* =========================
+   Navigation
+========================= */
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 10px 16px;
+  border-radius: 999px;
+  transition: 0.2s ease;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.14);
+  transform: translateY(-1px);
+}
+
+
+/* =========================
+   About
+========================= */
+
+#about p {
+  max-width: 850px;
+  font-size: 1.05rem;
+}
+
+
+/* =========================
+   Featured Project
+========================= */
+
+#project h3 {
+  font-size: 1.65rem;
+  color: #a91f36;
+  margin-bottom: 22px;
+}
+
+#project p {
+  max-width: 900px;
+}
+
+
+/* =========================
+   Key Findings Cards
+========================= */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  border-top: 6px solid #1f7a83;
+}
+
+.card:nth-child(2) {
+  border-top-color: #d7bc7a;
+}
+
+.card:nth-child(3) {
+  border-top-color: #a91f36;
+}
+
+.card h3 {
+  font-size: 1.35rem;
+  color: #1f5b3a;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+
+/* =========================
+   Visualizations
+========================= */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+figure {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.07);
+}
+
+figure img {
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+
+figcaption {
+  font-size: 0.95rem;
+  color: #555555;
+  text-align: center;
+}
+
+
+/* =========================
+   Skills
+========================= */
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  list-style: none;
+}
+
+.skills-list li {
+  background-color: #e9f1ed;
+  color: #1f5b3a;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-weight: 700;
+  border: 1px solid #c9ddd1;
+}
+
+
+/* =========================
+   Resume Button
+========================= */
+
+.button {
+  display: inline-block;
+  background-color: #a91f36;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 13px 22px;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  background-color: #8f192d;
+  transform: translateY(-2px);
+}
+
+
+/* =========================
+   Footer
+========================= */
+
+footer {
+  background-color: #242424;
+  color: #ffffff;
+  padding: 28px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  color: #dddddd;
+}
+
+
+/* =========================
+   Responsive Design
+========================= */
+
+@media (max-width: 850px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    padding-top: 65px;
+  }
+
+  header h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .section {
+    padding: 50px 0;
+  }
+
+  nav {
+    gap: 8px;
+  }
+
+  nav a {
+    padding: 8px 11px;
+    font-size: 0.9rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+}
