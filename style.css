@@ -191,8 +191,19 @@ nav a:hover {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.gallery figure {
+  width: 100%;
+  margin: 0;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 figure {
@@ -279,10 +290,6 @@ footer p {
 
 @media (max-width: 850px) {
   .cards {
-    grid-template-columns: 1fr;
-  }
-
-  .gallery {
     grid-template-columns: 1fr;
   }
 
