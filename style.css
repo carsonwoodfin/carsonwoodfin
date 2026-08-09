@@ -322,14 +322,14 @@ footer p {
 }
 .about-layout {
   display: grid;
-  grid-template-columns: 220px 1fr;
-  gap: 40px;
-  align-items: start;
+  grid-template-columns: 190px 1fr;
+  gap: 36px;
+  align-items: center;
 }
 
 .about-photo img {
-  width: 220px;
-  height: 220px;
+  width: 190px;
+  height: 190px;
   object-fit: cover;
   border-radius: 50%;
 }
