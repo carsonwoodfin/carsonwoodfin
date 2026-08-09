@@ -340,6 +340,6 @@ footer p {
   }
 
   .about-photo img {
-    margin: 0 auto;
+    margin: -8px;
   }
 }
