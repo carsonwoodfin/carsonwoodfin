@@ -48,7 +48,7 @@ and align the analysis with the regional neighborhood-vulnerability question.
 
 
 
-\##Restricted data
+##Restricted data
 
 The source patient-level dataset is restricted and is not included in this
 repository or submission. It contains direct identifiers and may only be accessed
@@ -66,14 +66,14 @@ patient-level geographic information, or patient-level analytic records
 
 
 
-\##Primary outcome
+##Primary outcome
 
-att\_indicator identifies whether a patient received anti-amyloid therapy
+att_indicator identifies whether a patient received anti-amyloid therapy
 during the study period.
 
-\##Neighborhood exposure
+##Neighborhood exposure
 
-SVI\_quart represents census tract Social Vulnerability Index categories:
+SVI_quart represents census tract Social Vulnerability Index categories:
 -Q1: Most advantaged
 -Q2
 -Q3
@@ -81,7 +81,7 @@ SVI\_quart represents census tract Social Vulnerability Index categories:
 
 
 
-\##Non-neurologic comorbidity burden
+##Non-neurologic comorbidity burden
 
 The primary comorbidity measure is an eight-domain count containing:
 -Hypertension
@@ -102,7 +102,7 @@ contributes no more than one point to the score.
 Central nervous system conditions were excluded from the primary composite
 because the indicator was nearly universal and could reflect the neurologic
 condition underlying memory-clinic attendance or ATT eligibility. CNS
-conditions were examined separately in sensitivity analysis.
+conditions were examined separately in a sensitivity analysis.
 
 Comorbidity categories were defined as:
 
@@ -118,7 +118,7 @@ Comorbidity categories were defined as:
 
 Medication burden was calculated from nine selected medication classes:
 
-\-Anticoagulants
+-Anticoagulants
 -Antihypertensives
 -Antiplatelets
 -GLP-1 receptor agonists
@@ -132,7 +132,7 @@ Medication burden was calculated from nine selected medication classes:
 
 Medication categories were defined as:
 
-\-None: 0 selected classes
+-None: 0 selected classes
 -Moderate: 1-3 selected classes
 -High: 4 or more selected classes
 
@@ -149,7 +149,7 @@ interpreted as total medication count or conventional polypharmacy
 
 The analysis includes:
 
-\-Aggregate descriptive statistics
+-Aggregate descriptive statistics
 -Exact binomial 95% confidence intervals
 -Conventional logistic regression
 -Bias-reduced logistic regression
@@ -162,7 +162,7 @@ The analysis includes:
 
 The primary adjusted model includes:
 
-\-SVI category
+-SVI category
 -Non-neurologic comorbidity burden
 -Selected medication-class burden
 -Age per five years
@@ -262,7 +262,7 @@ The analysis was conducted in R using:
 
 Install the required packages once:
 
-install.packages(
+```install.packages(
 c(
 "tidyverse",
 "janitor",
@@ -273,7 +273,7 @@ c(
 "car"
 )
 )
-
+```
 
 
 ## Running the analysis
@@ -292,7 +292,7 @@ The script does not export patient-level records.
 
 
 
-\##Reproducibility and FAIR practices
+##Reproducibility and FAIR practices
 
 
 
@@ -313,7 +313,7 @@ and regulatory requirements.
 
 
 
-\##Important limitations
+##Important limitations
 
 * The analysis is observational and cannot establish causality.
 * Neighborhood SVI is a census-tract measure and should not be interpreted as an
@@ -331,7 +331,7 @@ separately.
 
 
 
-`##AI use disclosure
+##AI use disclosure
 
 Generative AI was used as a support tool for code organization, debugging,
 visualization refinement, documentation, and interpretation checks. The research
